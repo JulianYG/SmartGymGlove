@@ -1,0 +1,1 @@
+"../comm.c" "../diskio.c" "../ff.c" "../i2c.c" "../lcd.c" "../main.c" "../mode_bt2cmd.c" "../mode_standby.c" "../mode_temp.c" "../mode_turbine.c" "../sdinterface.c" 

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2742377294</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\mode_bt2cmd.h</file>
+      <file>$PROJ_DIR$\mode_bt2cmd.c</file>
+      <file>$PROJ_DIR$\comm.c</file>
+      <file>$PROJ_DIR$\comm.h</file>
+      <file>$PROJ_DIR$\defs.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\mode_standby.c</file>
+      <file>$PROJ_DIR$\mode_standby.h</file>
+      <file>$PROJ_DIR$\mode_temp.c</file>
+      <file>$PROJ_DIR$\mode_temp.h</file>
+      <file>$PROJ_DIR$\mode_turbine.c</file>
+      <file>$PROJ_DIR$\mode_turbine.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\comm.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spiro_rev3.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_standby.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\spiro_rev3.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\comm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_bt2cmd.r43</file>
+      <file>$TOOLKIT_DIR$\inc\io430f6726.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_turbine.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_bt2cmd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_temp.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_turbine.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_standby.r43</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F6726.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\mode_temp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\spiro_rev3.ulp</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mode_bt2cmd.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\comm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 22 24 13 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 22 24 13 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 22 24 13 4 11 7 0 9 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 22 24 13 4 11 7 0 9 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mode_standby.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mode_temp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mode_turbine.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 22 24 13 3 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\spiro_rev3.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 20 26 25 17 32 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\spiro_rev3.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31 30 12 14 21 29 27 28 18</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

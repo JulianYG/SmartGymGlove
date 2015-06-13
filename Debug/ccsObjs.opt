@@ -1,0 +1,1 @@
+"./sdinterface.obj" "./mode_turbine.obj" "./main.obj" "./i2c.obj" "./ff.obj" "./diskio.obj" "./comm.obj" "../lnk_msp430f6726.cmd" -l"libmath.a" -l"libc.a" 
